@@ -19,4 +19,4 @@ All lab work are stored in a seperate folder and numbered, each lab work include
 
 All course assignments will have the prompt in the same folder.
 
-![Lab Marks](https://github.com/ar-nadeem/AI-Course-FAST-NUCES/blob/main/AI-Course/Course-Scores.png?raw=true)
+![Course Marks](https://github.com/ar-nadeem/AI-Course-FAST-NUCES/blob/main/AI-Course/Course-Scores.png?raw=true)
