@@ -1,16 +1,33 @@
 # Each state is a node
 # each visitied will be added to a list to avoid infinite loop on repeated states
 # Will stop when goal state reached
+
+
+# THINGS TO DO
+# 1. Make the misplacedTile function in Super class more efficient
+
 import copy
+import time
 from bootifulPrint import bootifulPrint
 p = bootifulPrint()
 
 
-class UCSPuzzle:
+class Node:
+    def __init__(self, state, parent, stepTaken=None, cost=None):
+        self.state = state
+        self.parent = parent
+        self.stepTaken = stepTaken
+        self.cost = cost
+
+    def setCost(self, cost):
+        self.cost = cost
+
+
+class Puzzle:
     def __init__(self):
         # Debug Variable
         self.debug = False
-        # A priority Queue tuples| Used to know which node to visit next
+        # A priority Queue list | Used to know which node to visit next
         self.queue = []
 
         # Cost of moving
@@ -21,7 +38,7 @@ class UCSPuzzle:
 
         # States
         self.initialState = []
-        self.currentState = []
+        self.currentState = None
         self.goalState = []
 
         # Visited
@@ -94,17 +111,15 @@ class UCSPuzzle:
         return index
 
     # Calculate distnace from given state to goal state
-    def calculateGN(self, state, x):
-        # Original Index of element
-        indexOG = self.findElement(x, state)
-        # Location of element in the Goal State
-        indexG = self.findElement(x, self.goalState)
-        cost = abs(indexG[0]-indexOG[0]) + abs(indexG[1]-indexOG[1])
-
-        if self.debug:
-            print("For element ", x)
-            print("OGIndex = ", indexOG, "GoalIndex = ", indexG)
-            print("Cost = ", cost)
+    def calculateGN(self, state):
+        cost = 0
+        parent = state.parent
+        if parent == None:
+            return cost
+        else:
+            while (parent != None):
+                cost += 1
+                parent = parent.parent
         return cost
 
     def swapIndex(self, state, index1, index2):
@@ -119,7 +134,7 @@ class UCSPuzzle:
 
     def Discover(self, state):
         # Discover States that be achienved from given state
-        index = self.findElement(self.blank, state)
+        index = self.findElement(self.blank, state.state)
         # 4 ways UP DOWN LEFT RIGHT
         up = (index[0]-1, index[1])
         down = (index[0]+1, index[1])
@@ -133,22 +148,62 @@ class UCSPuzzle:
 
         # Check if possible and then proceed to create the states
         if (up[0] >= 0 and up[1] >= 0 and up[0] < 3 and up[1] < 3):
-            stateUP = self.swapIndex(state, up, index)
+            stateUP = Node(self.swapIndex(state.state, up, index), state, "UP")
 
         if (down[0] >= 0 and down[1] >= 0 and down[0] < 3 and down[1] < 3):
-            stateDOWN = self.swapIndex(state, down, index)
+            stateDOWN = Node(self.swapIndex(
+                state.state, down, index), state, "DOWN")
 
         if (left[0] >= 0 and left[1] >= 0 and left[0] < 3 and left[1] < 3):
-            stateLEFT = self.swapIndex(state, left, index)
+            stateLEFT = Node(self.swapIndex(
+                state.state, left, index), state, "LEFT")
         if (right[0] >= 0 and right[1] >= 0 and right[0] < 3 and right[1] < 3):
-            stateRIGHT = self.swapIndex(state, right, index)
+            stateRIGHT = Node(self.swapIndex(
+                state.state, right, index), state, "RIGHT")
 
         return (stateUP, stateDOWN, stateLEFT, stateRIGHT)
 
+    def manhattanD(self, state, x):
+        # Original Index of element
+        indexOG = self.findElement(x, state.state)
+        # Location of element in the Goal State
+        indexG = self.findElement(x, self.goalState)
+        cost = abs(indexG[0]-indexOG[0]) + abs(indexG[1]-indexOG[1])
+
+        if self.debug:
+            print("For element ", x)
+            print("OGIndex = ", indexOG, "GoalIndex = ", indexG)
+            print("Cost = ", cost)
+        return cost
+
+    def miplacedT(self, state, x):
+        # Original Index of element
+        indexOG = self.findElement(x, state.state)
+        # Location of element in the Goal State
+        indexG = self.findElement(x, self.goalState)
+        if (indexG == indexOG):
+            cost = 0
+        else:
+            cost = 1
+
+        if self.debug:
+            print("For element ", x)
+            print("OGIndex = ", indexOG, "GoalIndex = ", indexG)
+            print("Cost = ", cost)
+        return cost
+
+    def costFunction(self, state=None, num=None):
+        return None
+
     def Solve(self):
+        if (self.__class__.__name__ == "Puzzle"):
+            print("PLEASE DO NOT USE THE SUPER CLASS !")
+            exit(0)
         steps = 0
         # Start from Init state as root node / root state
-        self.currentState = copy.deepcopy(self.initialState)
+        # Root Node has no parent
+        self.currentState = Node(copy.deepcopy(
+            self.initialState), None, None, 0)
 
         while (True):
             self.visited.append(self.currentState)  # Add to visited
@@ -157,47 +212,144 @@ class UCSPuzzle:
             self.tree.append(self.currentState)
             # Caluclate G(n) for each state
 
+            # For each state calculate G(n) and add to queue
             for state in states:
                 cost = 0
                 if state != None:
-                    for arr in state:
-                        for num in arr:
-                            cost += self.calculateGN(state, num)
+                    # Calculate Cost for each state
+                    cost += self.costFunction(state)
+                    state.setCost(cost)
                     if (state not in self.visited):  # IGNORE VISITED NODES
                         self.queue.append((cost, state))
+            # print("STEPS = ", steps)
 
+            if self.debug:
+                self.printState(self.currentState.state)
+                print(self.currentState.cost)
+                print("\n")
+                time.sleep(1)
             self.queue.sort(key=lambda x: x[0])  # Sort by Priority
-
             self.currentState = (self.queue[0])[1]
-            if ((self.queue[0])[0] == 0):
+
+            # Check if Goal State is reached
+            if (self.currentState.state == self.goalState):
                 self.visited.append(self.currentState)
+                self.finalState = self.currentState
+                # Generate Solution
+                self.generateSolution()
                 break
+
+            # Else Remove the state from queue
             self.queue.pop(0)
 
-        print("SOLVED IN STEPS = ", steps)
+        print("SOLVED IN Iterations = ", steps)
 
+    # Print the Traversal
     def printTraversal(self):
-        for v in self.visited:
-            self.printState(v)
+        print("Traversal which has ", len(self.tree), " steps : ")
+        for node in self.tree:
+            self.printState(node.state)
+            print("\n")
+
+    def printTraversalSteps(self):
+        print("Traversal which has ", len(self.tree), " steps : ")
+        for node in self.tree:
+            print("Step = ", node.stepTaken)
+            self.printState(node.state)
+            print("\n")
+
+    def generateSolution(self):
+        # Prepare the solution
+        self.solutionTree = []
+        parent = self.finalState.parent
+        self.solutionTree.append(self.finalState)
+        while (parent != None):
+            self.solutionTree.append(parent)
+            parent = parent.parent
+
+    def printSolution(self):
+        # Print the solution
+        print("SOLUTION which takes ", len(self.solutionTree)-1, " steps : ")
+        for node in reversed(self.solutionTree):
+            self.printState(node.state)
+            print("\n")
+
+    def printSolutionSteps(self):
+        # Print the solution with steps
+        print("SOLUTION which takes ", len(self.solutionTree)-1, " steps : ")
+        for node in reversed(self.solutionTree):
+            print("Step = ", node.stepTaken)
+            self.printState(node.state)
             print("\n")
 
 
-if __name__ == "__main__":
-    # g_init = [
-    #     [1, 2, 4],
-    #     [3, -1, 5],
-    #     [8, 6, 7],
-    # ]
-    # g_final = [
-    #     [-1, 1, 2],
-    #     [3, 4, 5],
-    #     [6, 7, 8],
-    # ]
+# Inherit from Puzzle
+# Child classes that implement the cost function, effectivly implementing the search algorithm
+class UCS(Puzzle):
+    def __init__(self):
+        super().__init__()
 
+    def costFunction(self, state=None, num=None):
+        if state != None:
+            # Cost of path is G(n) which is the number of branchs
+            return (self.calculateGN(state))
+        else:
+            return None
+
+
+class GreedyBFS(Puzzle):
+    def __init__(self, type="MH"):
+        self.type = type
+        super().__init__()
+
+    def costFunction(self, state=None, num=None):
+        if state != None:
+
+            cost = 0
+            for arr in state.state:
+                for num in arr:
+                    if self.type == "MH":
+                        # if you want to use manhattan distance
+                        cost += self.manhattanD(state, num)
+                    elif self.type == "MT":
+                        # if you want to use misplaced tiles
+                        cost += self.miplacedT(state, num)
+            return cost
+
+        else:
+            return None
+
+
+class Astar(Puzzle):
+    def __init__(self, type="MH"):
+        self.type = type
+        super().__init__()
+
+    def costFunction(self, state=None, num=None):
+        if state != None:
+
+            cost = 0
+            for arr in state.state:
+                for num in arr:
+                    if self.type == "MH":
+                        # if you want to use manhattan distance
+                        cost += self.manhattanD(state, num)
+                    elif self.type == "MT":
+                        # if you want to use misplaced tiles
+                        cost += self.miplacedT(state, num)
+            # Always add the cost of the path G(n)
+            cost += self.calculateGN(state)
+            return cost
+
+        else:
+            return None
+
+
+if __name__ == "__main__":
     g_init = [
-        [2, 8, 3],
-        [1, 6, 4],
-        [7, -1, 5],
+        [-1, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8],
     ]
     g_final = [
         [1, 2, 3],
@@ -205,13 +357,28 @@ if __name__ == "__main__":
         [7, 6, 5],
     ]
 
-    myUCS = UCSPuzzle()
-    myUCS.setDebug(False)
-
-    print("###### INITIAL STATE ######")
-    myUCS.setInitialState(g_init)
-    myUCS.setGoalState(g_final)
-    myUCS.printInitialState()
+    # -------------
+    # | 0 | 3 | 6 |
+    # -------------
+    # | 1 | 4 | 7 |
+    # -------------
+    # | 2 | 5 | 8 |
+    # -------------
+    #
+    # The goal is defined as:
+    #
+    # -------------
+    # | 1 | 2 | 3 |
+    # -------------
+    # | 8 | 0 | 4 |
+    # -------------
+    # | 7 | 6 | 5 |
+    # -------------
+    gbfs = GreedyBFS("MH")  # Manhattan Distance
+    gbfs.setDebug(True)
+    gbfs.setInitialState(g_init)
+    gbfs.setGoalState(g_final)
+    gbfs.printInitialState()
     print("####### SOLVING #######")
-    myUCS.Solve()
-    myUCS.printTraversal()
+    gbfs.Solve()
+    gbfs.printSolutionSteps()
