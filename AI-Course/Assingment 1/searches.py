@@ -30,12 +30,18 @@ class UCSPuzzle:
         # Tree created in the progress
         self.tree = []
 
+        # Blank Space Tile
+        self.blank = -1
+
         # For rows and columns of states
         self.row = 0
         self.col = 0
 
     def setDebug(self, t):
         self.debug = t
+
+    def setBlank(self, t):
+        self.blank = t
 
     def setInitialState(self):
         self.row = 0
@@ -113,7 +119,7 @@ class UCSPuzzle:
 
     def Discover(self, state):
         # Discover States that be achienved from given state
-        index = self.findElement(-1, state)
+        index = self.findElement(self.blank, state)
         # 4 ways UP DOWN LEFT RIGHT
         up = (index[0]-1, index[1])
         down = (index[0]+1, index[1])
@@ -201,6 +207,7 @@ if __name__ == "__main__":
 
     myUCS = UCSPuzzle()
     myUCS.setDebug(False)
+
     print("###### INITIAL STATE ######")
     myUCS.setInitialState(g_init)
     myUCS.setGoalState(g_final)
