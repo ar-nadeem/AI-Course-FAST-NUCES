@@ -195,6 +195,12 @@ class Puzzle:
     def costFunction(self, state=None, num=None):
         return None
 
+    def isVisited(self, state):
+        for obj in self.visited:
+            if obj.state == state.state:
+                return True
+        return False
+
     def Solve(self):
         if (self.__class__.__name__ == "Puzzle"):
             print("PLEASE DO NOT USE THE SUPER CLASS !")
@@ -219,7 +225,7 @@ class Puzzle:
                     # Calculate Cost for each state
                     cost += self.costFunction(state)
                     state.setCost(cost)
-                    if (state not in self.visited):  # IGNORE VISITED NODES
+                    if (self.isVisited(state) == False):  # IGNORE VISITED NODES
                         self.queue.append((cost, state))
             # print("STEPS = ", steps)
 
@@ -375,7 +381,7 @@ if __name__ == "__main__":
     # | 7 | 6 | 5 |
     # -------------
     gbfs = GreedyBFS("MH")  # Manhattan Distance
-    gbfs.setDebug(True)
+    gbfs.setDebug(False)
     gbfs.setInitialState(g_init)
     gbfs.setGoalState(g_final)
     gbfs.printInitialState()
