@@ -1,0 +1,28 @@
+This is the file of alphabets. 
+This is an A. 
+This is B. 
+This is C. 
+This is D. 
+This is E. 
+This is F. 
+This is G. 
+This is H. 
+This is I. 
+This is J. 
+This is K. 
+This is L. 
+This is M. 
+This is N. 
+This is O. 
+This is P. 
+This is Q. 
+This is R. 
+This is S. 
+This is T. 
+This is U. 
+This is V. 
+This is W. 
+This is X. 
+This is Y. 
+This is Z. 
+We have read all alphabets from A to Z.
