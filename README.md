@@ -13,10 +13,10 @@ This repository contains all my lab work, quizes and course assignments for cour
 
 All lab work are stored in a seperate folder and numbered, each lab work includes the solved lab with the prompt given my the lab instructor. The code is in Python (Jupyter Notebook) .ipynb
 
-![Lab Marks](https://github.com/ar-nadeem/AI-Course-FAST-NUCES/blob/main/AI-Lab/Lab-Scores.png?raw=true)
+![Lab Marks](./AI-Lab/Lab-Scores.png?raw=true)
 
 ## Course
 
 All course assignments will have the prompt in the same folder.
 
-![Course Marks](https://github.com/ar-nadeem/AI-Course-FAST-NUCES/blob/main/AI-Course/Course-Scores.png?raw=true)
+![Course Marks](./AI-Course/Course-Scores.png?raw=true)
