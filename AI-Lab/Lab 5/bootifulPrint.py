@@ -75,6 +75,19 @@ class bootifulPrint:
 
 
 if __name__ == "__main__":
-    arr = [1, 2, -122, 4, 5, 6, 7]
+    arr = [0, 0, 0, 0, 0, 0, 0, 0]
     bPrint = bootifulPrint()
     bPrint.printArray(arr)
+
+    # val = [0, 1, 2, 3, 4, 5, 6, 7]
+    # myarr = []
+    # a = [0, 0, 0, 0, 0, 0, 0, 0]
+    # for i in range(8):
+    #     a[val.index(i)] = 1
+    #     myarr.append(a)
+    #     a = [0, 0, 0, 0, 0, 0, 0, 0]
+
+    # print(myarr)
+    # for arr in myarr:
+    #     bPrint.printArray(arr)
+    #     print("\n\n")
