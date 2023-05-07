@@ -1,0 +1,501 @@
+EmployeeNumber,Surname,GivenName,Gender,City,JobTitle,DepartmentName,StoreLocation,Division,Age,LengthService,AbsentHours,BusinessUnit
+1,Gutierrez,Molly,F,Burnaby,Baker,Bakery,Burnaby,Stores,32.02881569,6.018478474,36.57730606,Stores
+2,Hardwick,Stephen,M,Courtenay,Baker,Bakery,Nanaimo,Stores,40.32090167,5.532444578,30.16507231,Stores
+3,Delgado,Chester,M,Richmond,Baker,Bakery,Richmond,Stores,48.82204661,4.389973118,83.80779766,Stores
+4,Simon,Irene,F,Victoria,Baker,Bakery,Victoria,Stores,44.59935722,3.081735738,70.02016505,Stores
+5,Delvalle,Edward,M,New Westminster,Baker,Bakery,New Westminster,Stores,35.69787561,3.619091448,0,Stores
+6,Jones,Ernie,M,Richmond,Baker,Bakery,Richmond,Stores,48.44031059,2.717692452,81.83007916,Stores
+7,Buford,Ralph,M,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,50.75273,10.157918,60.49507152,HeadOffice
+8,Lee,Gregory,M,Sechelt,Baker,Bakery,West Vancouver,Stores,36.2160312,4.432122862,30.07290192,Stores
+9,Smith,Jerry,M,New Westminster,Baker,Bakery,New Westminster,Stores,58.42738025,6.940120524,181.630819,Stores
+10,Beard,Robert,M,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,39.85398,13654.84832,30.66440832,HeadOffice
+11,Mathis,John,M,New Westminster,Baker,Bakery,New Westminster,Stores,46.54758052,4.872038321,28.01835332,Stores
+12,Barajas,John,M,Kamloops,Baker,Bakery,Kamloops,Stores,,3.793042148,0,Stores
+13,Leonard,James,M,North Vancouver,Baker,Bakery,North Vancouver,Stores,37.72801116,3.621141838,0,Stores
+14,Davis,Janet,F,Vananda,Baker,Bakery,Nanaimo,Stores,30.78519091,4.583328091,34.33444296,Stores
+15,Bell,Thomas,M,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,49.92338,4.883225,0,HeadOffice
+16,Combs,Danny,M,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,42.79789,19.107198,21.65982312,HeadOffice
+17,Vivanco,Anne,F,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,48.6213,9.940272,0,HeadOffice
+18,Craig,Bobbie,F,West Vancouver,Baker,Bakery,West Vancouver,Stores,41.85581217,2.559053659,55.09983109,Stores
+19,Jones,Ilona,F,New Westminster,Baker,Bakery,New Westminster,Stores,51.00873723,5.30277286,81.59554037,Stores
+20,Watkins,Jan,F,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,36.91041,11.22628,94.66856131,HeadOffice
+21,Callaway,Jesus,M,Burnaby,Baker,Bakery,Burnaby,Stores,57.90324297,3.300303735,108.3801763,Stores
+22,Hammett,Josephine,F,New Westminster,Baker,Bakery,New Westminster,Stores,24.47030259,3.147510228,0,Stores
+23,Jarman,Sandra,F,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,49.51672,6.5335,67.74078948,HeadOffice
+24,Butler,Jennifer,F,Victoria,Baker,Bakery,Victoria,Stores,60.5955091,4.465036581,158.7045089,Stores
+25,Simons,Larry,M,Nanaimo,Baker,Bakery,Nanaimo,Stores,35.80466401,4.626920266,0,Stores
+26,Mason,Penny,F,Aldergrove,Baker,Bakery,Aldergrove,Stores,35.87338778,3.101925634,48.0170507,Stores
+27,Burton,Theodore,M,Kelowna,Baker,Bakery,Kelowna,Stores,41.93560641,4.557230329,42.78802656,Stores
+28,Hunt,Joseph,M,Trail,Baker,Bakery,Trail,Stores,35.49790596,5.174673648,34.52427221,Stores
+29,Loiselle,Thomas,M,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,40.02887,12.185467,59.88316464,HeadOffice
+30,Nguyen,William,M,Aldergrove,Baker,Bakery,Aldergrove,Stores,49.75658466,4.313617694,100.6740987,Stores
+31,Schrupp,James,M,Penticton,Baker,Bakery,Kelowna,Stores,38.11173232,3.493533521,9.522523814,Stores
+32,Donaldson,Adriana,F,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,42.8715,19.006436,38.88332344,HeadOffice
+33,Thompson,Felipe,M,Duncan,Baker,Bakery,Quesnel,Stores,49.94274462,5.775266268,129.8357633,Stores
+34,Livingston,Lester,M,Kelowna,Baker,Bakery,Kelowna,Stores,77,3.203849714,44.2731088,Stores
+35,Ashley,Emma,F,Crawford Bay,Baker,Bakery,Cranbrook,Stores,23.74733283,2.992041355,0,Stores
+36,Davis,Jeffery,M,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,36.196064,18.196064,0,HeadOffice
+37,Farris,Augustina,F,Courtenay,Baker,Bakery,Nanaimo,Stores,51.56495808,4.641869886,75.25704812,Stores
+38,Colman,Katherine,F,Port Hardy,Baker,Bakery,Nanaimo,Stores,40.41201341,6.192268184,58.97153025,Stores
+39,Martin,Daniel,M,Kelowna,Baker,Bakery,Kelowna,Stores,52.44651862,4.29126449,134.6683839,Stores
+40,Atencio,Morris,M,Logan Lake,Baker,Bakery,Kamloops,Stores,20.02556154,4.483391669,0,Stores
+41,Harrod,Gloria,F,Abbotsford,Baker,Bakery,Abbotsford,Stores,44.60660014,4.862142071,78.34173929,Stores
+42,Bell,Angelo,M,Dawson Creek,Baker,Bakery,Dawson Creek,Stores,67.08801208,2.183958352,168.9957664,Stores
+43,Kelley,Virginia,F,Burnaby,Baker,Bakery,Burnaby,Stores,41.25328235,2.018782807,56.21994065,Stores
+44,Turner,Stephen,M,Surrey,Baker,Bakery,Surrey,Stores,62.05182058,5.473604647,152.6467667,Stores
+45,Mortimer,Cecilia,F,Victoria,Baker,Bakery,Victoria,Stores,28.07544199,5.776657666,0,Stores
+46,Stutts,Belle,F,Surrey,Baker,Bakery,Surrey,Stores,49.90577748,5.357402979,80.24254043,Stores
+47,Bryant,John,M,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,50.07982,1,78.7532824,HeadOffice
+48,Nolan,John,M,Squamish,Baker,Bakery,Squamish,Stores,33.80945018,5.654808747,0,Stores
+49,Allison,Connie,F,Good Hope Lake,Baker,Bakery,Terrace,Stores,51.60595642,3.9855896,88.91127783,Stores
+50,McAllister,Greg,M,Vancouver,Accounting Clerk,Accounting,Vancouver,FinanceAndAccounting,38.678832,20.678832,21.38553248,HeadOffice
+51,Murry,Adam,M,Burnaby,Baker,Bakery,Burnaby,Stores,30.29765034,7.560140987,3.737100223,Stores
+52,Price,David,M,Penticton,Baker,Bakery,Kelowna,Stores,43.68608721,0.385746182,38.06658377,Stores
+53,McCoy,Corey,M,New Westminster,Baker,Bakery,New Westminster,Stores,50.04741662,5.702536846,116.2269635,Stores
+54,Baker,Linda,F,Nanaimo,Baker,Bakery,Nanaimo,Stores,34.68894529,4.721105791,0,Stores
+55,Shultz,Charles,M,Abbotsford,Baker,Bakery,Abbotsford,Stores,29.32983419,3.28103742,0,Stores
+56,Medina,Bonita,F,Sidney,Baker,Bakery,Victoria,Stores,50.01054543,3.653801673,77.13030678,Stores
+57,Houston,Harold,M,Coquitlam,Baker,Bakery,Nanaimo,Stores,24.50853,4.796216863,0,Stores
+58,Mejia,James,M,Chilliwack,Baker,Bakery,Chilliwack,Stores,42.62840469,4.124606978,24.79287091,Stores
+59,Bates,Charles,M,Okanagan Mission,Baker,Bakery,Kelowna,Stores,54.04930086,4.060790515,121.4480075,Stores
+60,Ross,Robert,M,New Westminster,Baker,Bakery,New Westminster,Stores,43.91047001,4.197598793,59.7836809,Stores
+61,Heller,Joseph,M,Ganges,Baker,Bakery,Victoria,Stores,42.59140213,5.101161761,55.62426288,Stores
+62,Murray,Faye,F,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,55.76305,10.623616,0,HeadOffice
+63,Allen,Michelle,F,Prince George,Baker,Bakery,Prince George,Stores,31.16665889,0.775517909,0,Stores
+64,Jones,Harvey,M,Atlin,Baker,Bakery,Terrace,Stores,43.26243975,5.843569409,55.05895104,Stores
+65,Nystrom,Jane,F,Kamloops,Baker,Bakery,Kamloops,Stores,35.61924833,3.679095448,44.6346054,Stores
+66,Albright,Paul,M,Whistler,Baker,Bakery,Squamish,Stores,39.26200269,5.748053523,42.45739254,Stores
+67,Lovely,Janet,F,Surrey,Baker,Bakery,Surrey,Stores,22.5364126,5.897640636,0,Stores
+68,Strayhorn,Billie,F,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,39.73937,11.885504,0,HeadOffice
+69,Jones,Tammy,F,Spences Bridge,Baker,Bakery,Kamloops,Stores,46.94959435,2.024655355,107.7955005,Stores
+70,Gay,Donald,M,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,44.10973,12.305714,78.84098352,HeadOffice
+71,Green,Earnest,M,New Westminister,Baker,Bakery,New Westminister,Stores,52.78875734,4.589520028,110.1543068,Stores
+72,Riley,Wendy,F,Gibsons,Baker,Bakery,West Vancouver,Stores,35.63044266,3.947661015,33.93440994,Stores
+73,Malizia,Randall,M,Vernon,Baker,Bakery,Vernon,Stores,42.4342557,3.387128544,28.60483097,Stores
+74,Lopez,Florence,F,Burnaby,Baker,Bakery,Burnaby,Stores,40.96753752,3.285283682,44.9874293,Stores
+75,Howell,Carol,F,Fauquier,Baker,Bakery,Trail,Stores,46.77086356,1.991692074,126.5011301,Stores
+76,Chico,Joyce,F,Victoria,Baker,Bakery,Victoria,Stores,45.3008103,5.567973876,19.6191458,Stores
+77,White,Anthony,M,Kamloops,Baker,Bakery,Kamloops,Stores,38.29655279,6.095617444,0,Stores
+78,Smith,Danny,M,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,35.4939,8.348239,44.97411152,HeadOffice
+79,Porter,Ana,F,Mackenzie,Baker,Bakery,Prince George,Stores,41.66134173,4.711743887,45.95478779,Stores
+80,Depaz,Shari,F,New Westminster,Baker,Bakery,New Westminster,Stores,43.5118766,1.778630937,83.3173005,Stores
+81,Witkowski,Alice,F,Squamish,Baker,Bakery,Squamish,Stores,54.00481868,2.870591513,136.3424045,Stores
+82,Alvarez,Kenneth,M,Nanaimo,Baker,Bakery,Nanaimo,Stores,46.22423463,4.416249838,53.3120259,Stores
+83,Morales,Soledad,F,Gold Bridge,Baker,Bakery,Kamloops,Stores,47.65733071,4.252453434,96.6132406,Stores
+84,Burden,Alexis,F,Penticton,Baker,Bakery,Kelowna,Stores,51.99137493,2.964089468,140.9111414,Stores
+85,Dyal,William,M,Victoria,Baker,Bakery,Victoria,Stores,33.3683369,2.301876593,31.69229831,Stores
+86,Hayden,Kenneth,M,New Westminster,Baker,Bakery,New Westminster,Stores,47.6040848,4.149329545,12.68410865,Stores
+87,Caban,Joshua,M,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,34.6622,13.828331,54.30033232,HeadOffice
+88,Knight,Mildred,F,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,37.24006,18.641316,0,HeadOffice
+89,Thurmond,Linda,F,Duncan,Baker,Bakery,Quesnel,Stores,45.47882196,6.837239767,103.3493697,Stores
+90,Monroe,Terra,F,Kelowna,Baker,Bakery,Kelowna,Stores,26.91367155,3.983950436,0,Stores
+91,Velez,Colleen,F,Good Hope Lake,Baker,Bakery,Terrace,Stores,37.74242382,3.569517999,49.84641191,Stores
+92,Martin,Lisa,F,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,40.49192,1.223785,58.28770605,HeadOffice
+93,Godfrey,Ramon,M,Victoria,Baker,Bakery,Victoria,Stores,48.62992513,5.534431308,110.8124796,Stores
+94,Jackson,Monica,F,Fort Fraser,Baker,Bakery,Prince George,Stores,52.18642804,5.333357014,158.6843997,Stores
+95,Craig,Cristina,F,Victoria,Baker,Bakery,Victoria,Stores,37.91257982,4.677505826,73.47603875,Stores
+96,Schooley,Daniel,M,Nelson,Baker,Bakery,Nelson,Stores,29.40947244,4.853084899,2.187241945,Stores
+97,Wireman,Jacquie,F,New Westminster,Baker,Bakery,New Westminster,Stores,51.17022316,4.954787053,99.80856689,Stores
+98,Tripp,Simone,F,Kamloops,Baker,Bakery,Kamloops,Stores,39.46457145,1.914256944,34.77626973,Stores
+99,Cousins,Jessica,F,Kaslo,Baker,Bakery,Cranbrook,Stores,26.67920383,4.850275414,,Stores
+100,Drake,Mildred,F,Burnaby,Baker,Bakery,Burnaby,Stores,46.54737692,7.40795942,81.7411048,Stores
+101,Gilreath,Mary,F,Victoria,Baker,Bakery,Victoria,Stores,39.23785234,5.28876626,51.75805976,Stores
+102,Lundin,Edwina,F,New Westminster,Baker,Bakery,New Westminster,Stores,49.02908732,2.992767917,121.0074252,Stores
+103,Gleason,Esther,F,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,43.74006,16.587192,48.37309828,HeadOffice
+104,Sharma,Donald,M,Nanaimo,Baker,Bakery,Nanaimo,Stores,55.82635616,2.020945438,137.4598877,Stores
+105,Hash,Yvonne,F,Victoria,Baker,Bakery,Victoria,Stores,44.00105092,4.03442867,98.5576777,Stores
+106,Harris,Arnold,M,Creston,Baker,Bakery,Cranbrook,Stores,29.6692902,2.920694436,0,Stores
+107,Massey,Christie,F,Wynndel,Baker,Bakery,Cranbrook,Stores,46.08440537,4.834791047,44.00185941,Stores
+108,Webber,Hobert,M,Muncho Lake,Baker,Bakery,Fort St John,Stores,27.86599272,4.51966396,0,Stores
+109,Edmondson,Cynthia,F,Burnaby,Baker,Bakery,Burnaby,Stores,37.38317605,4.934654158,39.10172396,Stores
+110,Paschall,Marjorie,F,Muncho Lake,Baker,Bakery,Fort St John,Stores,50.43589901,5.505354659,138.9330403,Stores
+111,Johnson,Dexter,M,New Westminster,Baker,Bakery,New Westminster,Stores,46.58616386,4.74303968,63.03007856,Stores
+112,Fox,Keith,M,Creston,Baker,Bakery,Cranbrook,Stores,50.28113997,5.319611026,98.3228922,Stores
+113,Kamen,Alan,M,Kitimat,Baker,Bakery,Terrace,Stores,39.04622933,1.733551364,56.30433228,Stores
+114,Ogden,Nancy,F,Lac La Hache,Baker,Bakery,Williams Lake,Stores,37.49357924,5.272417507,25.46792975,Stores
+115,Ervin,Patricia,F,Armstrong,Baker,Bakery,Vernon,Stores,47.5184211,3.813679718,96.88371667,Stores
+116,Clark,Pauline,F,Victoria,Baker,Bakery,Victoria,Stores,50.24461391,3.450234407,118.490501,Stores
+117,Andrews,Debra,F,New Westminster,Baker,Bakery,New Westminster,Stores,40.32982676,6.277340487,34.02042059,Stores
+118,Calderon,Sybil,F,Aldergrove,Baker,Bakery,Aldergrove,Stores,36.92447866,6.283404129,72.79408579,Stores
+119,Torres,Lee,M,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,33.17869,3.616228,0,HeadOffice
+120,Ward,James,M,Abbotsford,Baker,Bakery,Abbotsford,Stores,32.75941298,7.100916929,0,Stores
+121,Browning,Christiane,F,Duncan,Baker,Bakery,Quesnel,Stores,58.57572963,6.547789836,153.2632323,Stores
+122,Wurth,William,M,Duncan,Baker,Bakery,Quesnel,Stores,23.94839693,5.192754104,0,Stores
+123,Prescott,Wesley,M,Quesnel,Baker,Bakery,Quesnel,Stores,43.20353674,7.921398042,53.84737103,Stores
+124,Dunham,Ligia,F,Hixon,Baker,Bakery,Prince George,Stores,52.64638663,4.990343166,113.9617749,Stores
+125,Garrett,Steve,M,Fauquier,Baker,Bakery,Trail,,45.82458879,3.39067547,79.10668824,Stores
+126,Alexander,Tyrone,M,Surrey,Baker,Bakery,Surrey,Stores,35.53798668,5.764585657,29.98231177,Stores
+127,Cheek,Mary,F,Wynndel,Baker,Bakery,Cranbrook,Stores,37.84977345,1.976125041,68.40403177,Stores
+128,Ackerman,Carrie,F,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,43.2858,21.122314,30.99399888,HeadOffice
+129,Johnson,Patricia,F,Ocean Falls,Baker,Bakery,Ocean Falls,Stores,24.36946429,3.769958819,0,Stores
+130,Haley,Carey,M,West Vancouver,Baker,Bakery,West Vancouver,Stores,45.92597301,6.680159831,40.05948151,Stores
+131,Hall,Maria,F,Vallican,Baker,Bakery,Trail,Stores,32.63626674,3.122804778,49.65651125,Stores
+132,Bunch,Terra,F,North Pender Island,Baker,Bakery,Victoria,Stores,39.38889368,3.731981529,94.2773662,Stores
+133,Martin,Terry,M,Victoria,Baker,Bakery,Victoria,Stores,35.69832217,1.881003024,58.09452779,Stores
+134,Bass,Brian,M,Montney,Baker,Bakery,Fort St John,Stores,49.71959048,4.205191727,62.16083824,Stores
+135,Wagner,Robert,M,Vancouver,Accounts Payable Clerk,Accounts Payable,Vancouver,FinanceAndAccounting,54.67226,17.149135,30.45802032,HeadOffice
+136,McBride,Joanne,F,Ganges,Baker,Bakery,Victoria,Stores,44.00556211,3.729336444,90.81179196,Stores
+137,Johnson,Paul,M,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,36.480086,18.480086,37.1157124,HeadOffice
+138,Cook,Anthony,M,Vancouver,,Accounts Receiveable,Vancouver,FinanceAndAccounting,55.76305,11.44132,0,HeadOffice
+139,Loch,Dean,M,North Vancouver,Baker,Bakery,North Vancouver,Stores,43.1563698,5.174066619,63.18923992,Stores
+140,Defoor,James,M,Prince George,Baker,Bakery,Prince George,Stores,56.55995386,4.927399666,101.9347516,Stores
+141,Wadlington,Arthur,M,Burns Lake,Baker,Bakery,Prince George,Stores,43.12316447,2.480452998,45.48992662,Stores
+142,Harte,Vanessa,F,Midway,Baker,Bakery,Trail,Stores,50.35361623,3.006138301,124.2025327,Stores
+143,Galindo,Zachary,M,Victoria,Baker,Bakery,Victoria,Stores,49.47613903,4.687620059,56.92397595,Stores
+144,Reardon,Kenneth,M,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,39.73937,16.8497,0,HeadOffice
+145,Flores,Doris,F,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,44.10973,11.954267,111.7755846,HeadOffice
+146,Busch,Alice,F,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,35.4939,13.707758,0,HeadOffice
+147,Phillips,Alfredo,M,Westwold,Baker,Bakery,Vernon,Stores,61.44050167,3.439750719,96.260697,Stores
+148,Lopez,Christopher,M,Victoria,Baker,Bakery,Victoria,Stores,47.87764919,3.44226196,58.15296878,Stores
+149,Fernandez,Emma,F,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,34.6622,5.689747,40.14572515,HeadOffice
+150,Westling,Sharonda,F,Vananda,Baker,Bakery,Nanaimo,Stores,37.85526055,7.02162411,92.24730012,Stores
+151,Pelletier,Ronald,M,Terrace,Baker,Bakery,Terrace,Stores,57.89963249,5.586855486,116.0821581,Stores
+152,Chacon,William,M,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,37.24006,2.759389,24.50390384,HeadOffice
+153,Petty,Leland,M,New Westminster,Baker,Bakery,New Westminster,Stores,37.97420752,2.519988839,17.06972082,Stores
+154,Whitmire,Ernestine,F,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,40.49192,6.408469,90.16966119,HeadOffice
+155,Rivers,Matthew,M,Victoria,Baker,Bakery,Victoria,Stores,49.07042916,6.154288207,46.52578004,Stores
+156,Meyers,Kim,F,Golden,Baker,Bakery,Cranbrook,Stores,55.93339775,4.507594802,156.6886593,Stores
+157,Hebert,Sheree,F,Port Coquitlam,Baker,Bakery,Port Coquitlam,Stores,27.38177556,5.882383018,14.38568387,Stores
+158,Jacques,Pearl,F,Vernon,Baker,Bakery,Vernon,Stores,51.85696413,2.856147379,113.2580344,Stores
+159,Valdez,Gabriela,F,Hixon,Baker,Bakery,Prince George,Stores,61.3978081,2.771944271,159.968214,Stores
+160,Vidrine,Harold,M,Sechelt,Baker,Bakery,West Vancouver,Stores,66.06890246,4.235105015,223.778841,Stores
+161,Carbone,Edith,F,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,43.74006,23.746003,0,HeadOffice
+162,Hernandez,Leonard,M,New Westminster,Baker,Bakery,New Westminster,Stores,40.45052007,3.839194051,79.12363725,Stores
+163,Campbell,Frank,M,White Rock,Baker,Bakery,White Rock,Stores,57.35063799,6.032330926,154.2577252,Stores
+164,Raley,Charlie,M,Aldergrove,Baker,Bakery,Aldergrove,Stores,31.38918207,4.08229079,0,Stores
+165,Rayfield,Robert,M,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,35.80744,17.80744,0,HeadOffice
+166,Shea,Melinda,F,Richmond,Baker,Bakery,Richmond,Stores,52.1325405,6.524270599,88.45913805,Stores
+167,Coleman,David,M,Muncho Lake,Baker,Bakery,Fort St John,Stores,30.55156977,4.994952013,0,Stores
+168,Haynes,Patrick,M,Whistler,Baker,Bakery,Squamish,Stores,54.55066069,5.582832837,95.49894843,Stores
+169,Bonilla,Frederick,M,Surrey,Baker,Bakery,Surrey,Stores,49.85965201,3.415872649,120.0797189,Stores
+170,Tobin,Sonia,F,Vancouver,Accounts Receiveable Clerk,Accounts Receiveable,Vancouver,FinanceAndAccounting,43.2858,13.56324,0,HeadOffice
+171,Wood,Denise,F,Logan Lake,Baker,Bakery,Kamloops,Stores,30.04004847,5.287380572,0,Stores
+172,Guajardo,Cynthia,F,Summerland,Baker,Bakery,Kelowna,Stores,42.51405735,0.696873054,82.89702302,Stores
+173,Marshall,Caroline,F,Victoria,Baker,Bakery,Victoria,Stores,49.27493559,5.039542872,121.3682638,Stores
+174,Ray,James,M,Prince George,Baker,Bakery,Prince George,Stores,38.15800998,3.999675679,34.20118293,Stores
+175,Baum,Stephanie,F,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,45.5594,14.410268,69.47820963,HeadOffice
+176,Dubin,Joesph,M,Kelowna,Baker,Bakery,Kelowna,Stores,44.0545011,4.48261494,56.19587246,Stores
+177,Giles,Sarah,F,New Westminster,Baker,Bakery,New Westminster,Stores,43.53401993,4.978325753,61.49474478,Stores
+178,Layman,Angelica,F,Victoria,Baker,Bakery,Victoria,Stores,42.63644281,5.982794346,60.09046813,Stores
+179,Martin,Michaela,F,Victoria,Baker,Bakery,Victoria,Stores,44.24521906,0.840480646,66.31549844,Stores
+180,Williams,Michael,M,North Vancouver,Baker,Bakery,North Vancouver,Stores,45.94124227,3.842333733,71.55570239,Stores
+181,Hoyt,Arnold,M,West Vancouver,Baker,Bakery,West Vancouver,Stores,37.99890445,6999.982081,33.94380532,Stores
+182,Belliveau,Tina,F,Victoria,Baker,Bakery,Victoria,Stores,33.403431,3.959062909,46.92397933,Stores
+183,Hoffman,Marvin,M,Langley,Baker,Bakery,Langley,Stores,40.34235317,3.204713851,40.23300149,Stores
+184,Slavin,Paul,M,Port Coquitlam,Baker,Bakery,Port Coquitlam,Stores,37.80852455,4.947165495,29.16170217,Stores
+185,Rosenfeld,Mary,F,Victoria,Baker,Bakery,Victoria,Stores,42.31715261,2.048207893,44.15691237,Stores
+186,Bryan,Larry,M,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,45.01263,12.688114,47.51121024,HeadOffice
+187,Hines,Oswaldo,M,Kamloops,Baker,Bakery,Kamloops,Stores,34.28047515,4.044062622,0,Stores
+188,Finley,Anna,F,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,49.14973,1,121.7851932,HeadOffice
+189,McCaffery,Francis,M,Victoria,Baker,Bakery,Victoria,Stores,35.36492589,5.028810793,31.13908709,Stores
+190,Ditch,Diana,F,New Westminster,Baker,Bakery,New Westminster,Stores,53.64586019,5.138841132,79.22102251,Stores
+191,Foster,Bonnie,F,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,43.934345,25.934345,38.55781831,HeadOffice
+192,Mitchell,Mary,F,Chilliwack,Baker,Bakery,Chilliwack,Stores,19.19153395,4.47318993,0,Stores
+193,Peterson,Brenda,F,Huntingdon,Baker,Bakery,Abbotsford,Stores,46.68367521,5.312088904,44.74428082,Stores
+194,Stokley,George,M,Nelson,Baker,Bakery,Nelson,Stores,44.60240143,4.41770495,93.42104381,Stores
+195,Hauser,Harold,M,Burnaby,Baker,Bakery,Burnaby,Stores,48.76869491,5.696230561,96.65594514,Stores
+196,Russell,James,M,Nanaimo,Baker,Bakery,Nanaimo,Stores,50.76459344,1.265974742,71.73266923,Stores
+197,Mott,Daniel,M,Yale,Baker,Bakery,Chilliwack,Stores,59.01548877,3.241373868,109.2478897,Stores
+198,Fernandez,Michael,M,Aiyansh,Baker,Bakery,Terrace,Stores,35.98656738,4.453742125,12.57657646,Stores
+199,Burton,Norman,M,Richmond,Baker,Bakery,Richmond,Stores,51.39517039,3.682661001,34.0739579,Stores
+200,Forrest,Tamara,F,Penticton,Baker,Bakery,Kelowna,Stores,57.43314763,5.885415633,154.8111128,Stores
+201,Britt,Robert,M,Richmond,Baker,Bakery,Richmond,Stores,52.65101839,5.299719684,90.2876122,Stores
+202,Bennett,Jimmy,M,Victoria,Baker,Bakery,Victoria,Stores,52.1874037,3.960580937,113.0661266,Stores
+203,Watkins,Caitlin,F,Haney,Baker,Bakery,Haney,Stores,51.77301121,3.908676273,106.5730043,Stores
+204,Wann,Amy,F,New Westminster,Baker,Bakery,New Westminster,Stores,35.11682533,5.865363012,12.10318321,Stores
+205,Roberson,Dennis,M,Kamloops,Baker,Bakery,Kamloops,Stores,52.99893588,4.219663308,84.32384993,Stores
+206,Moore,Francis,M,Surrey,Baker,Bakery,Surrey,Stores,43.73002137,5.168028157,66.34602697,Stores
+207,Johnson,Philip,M,Richmond,Baker,Bakery,Richmond,Stores,40.93856989,5.488107859,0,Stores
+208,Parker,Karen,F,Nelson,Baker,Bakery,Nelson,Stores,18.95983224,3.820712697,0,Stores
+209,Skipper,Maria,F,Bowen Island,Auditor,Audit,Vancouver,FinanceAndAccounting,57.87456,19.248894,72.92419805,HeadOffice
+210,Klein,Jennifer,F,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,53.312967,35.312967,0,HeadOffice
+211,Vaughn,Robert,M,Fort Langley,Baker,Bakery,Langley,Stores,32.50307819,4.664330299,0,Stores
+212,Anthony,Juan,M,Clinton,Baker,Bakery,Kamloops,Stores,36.38184177,4.953196152,33.52879809,Stores
+213,Lavalley,Glen,M,Prince George,Baker,Bakery,Prince George,Stores,44.84727769,5.170380512,61.73170524,Stores
+214,Bryant,Minerva,F,Cassiar,Baker,Bakery,Terrace,Stores,12.6843222,3.032072975,0,Stores
+215,Elmore,Alfred,M,Victoria,Baker,Bakery,Victoria,Stores,54.43216037,4.243228337,111.0545762,Stores
+216,Johnson,Billy,M,Surrey,Baker,Bakery,Surrey,Stores,60.37304921,2.251922005,174.6845171,Stores
+217,Ceaser,Mary,F,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,37.098383,19.098383,46.77119065,HeadOffice
+218,Collier,Steven,M,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,44.93259,11.374388,41.62491736,HeadOffice
+219,Aaron,Michael,M,Victoria,Baker,Bakery,Victoria,Stores,43.91164167,5.502563615,95.4168043,Stores
+220,Moultrie,Kevin,M,Victoria,Baker,Bakery,Victoria,Stores,45.45783561,4.594193677,22.49132554,Stores
+221,Witt,Melissa,F,Kelowna,Baker,Bakery,Kelowna,Stores,37.49657444,6.270841741,59.38794448,Stores
+222,Duvall,Gina,F,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,49.67844,12.688541,57.22786992,HeadOffice
+223,Willard,Jeffrey,M,Surrey,Baker,Bakery,Surrey,Stores,42.78966516,2.483440021,45.13933554,Stores
+224,Jacobs,Thomas,M,Victoria,Baker,Bakery,Victoria,Stores,34.80801888,6.462199055,50.51860074,Stores
+225,Lopes,Larry,M,Pender Harbour,Baker,Bakery,Victoria,Stores,44.71639495,4.551809045,62.15482382,Stores
+226,Wolfram,Betty,F,New Westminster,Baker,Bakery,New Westminster,Stores,39.93536429,6.609689398,16.055531,Stores
+227,Dunn,Heather,F,Kamloops,Baker,Bakery,Kamloops,Stores,47.50043293,2.363185013,85.37866147,Stores
+228,Kroon,Brent,M,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,44.185803,26.185803,0,HeadOffice
+229,Finke,Michael,M,Victoria,Baker,Bakery,Victoria,Stores,41.60450461,4.004897104,39.67547177,Stores
+230,Hulett,Florence,F,Parksville,Baker,Bakery,Nanaimo,Stores,44.22969208,5.520121991,57.18578016,Stores
+231,Ponce,Melanie,F,Kamloops,Baker,Bakery,Kamloops,Stores,37.2991166,6.880356905,38.10079038,Stores
+232,Ellis,Jeri,F,Quesnel,Baker,Bakery,Quesnel,Stores,42.46407075,3.729081549,118.5860854,Stores
+233,Cox,Conrad,M,Vancouver,Auditor,Audit,Vancouver,FinanceAndAccounting,39.31457,14.613758,28.89700216,HeadOffice
+234,Smith,Raymond,M,New Westminster,Baker,Bakery,New Westminster,Stores,43.35590303,5.955207373,73.39635973,Stores
+235,Banks,Ryan,M,New Westminster,Baker,Bakery,New Westminster,Stores,48.48461962,4.929204151,86.86241559,Stores
+236,Kendall,Bernadette,F,Richmond,Baker,Bakery,Richmond,Stores,45.28880825,6.267979432,106.7733033,Stores
+237,Fernandez,Brian,M,West Vancouver,Baker,Bakery,West Vancouver,Stores,34.54452812,6.340696466,0,Stores
+238,Labrie,Vicky,F,Mcleese Lake,Baker,Bakery,Williams Lake,Stores,51.7865376,5.205942693,107.8343573,Stores
+239,Ash,Christopher,M,Surrey,Baker,Bakery,Surrey,Stores,43.46696293,2.826842165,10.68473537,Stores
+240,Salisbury,Susan,F,Fort St John,Baker,Bakery,Fort St John,Stores,37.71197934,2.218388271,31.99564508,Stores
+241,Healy,Ann,F,Campbell River,Baker,Bakery,Nanaimo,Stores,51.03145944,7.100793025,131.023489,Stores
+242,Blake,Edward,M,West Vancouver,Baker,Bakery,West Vancouver,Stores,54.49284808,5.640629096,123.5629654,Stores
+243,Vega,Yoshiko,F,Wells,Baker,Bakery,Kamloops,Stores,28.9172471,2.244451155,21.03904881,Stores
+244,Hamlin,Francis,F,New Westminister,Baker,Bakery,New Westminister,Stores,55.70889907,5.225591189,173.8371942,Stores
+245,Adams,Andre,M,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,43.19064154,8.109839161,20.93704925,Stores
+246,Carruth,Mary,F,Manning Park,Baker,Bakery,Chilliwack,Stores,38.10720123,2.905915461,47.54204413,Stores
+247,Turner,Robert,M,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,,5.388619589,30.81552612,Stores
+248,Norris,Kristin,F,Decker Lake,Baker,Bakery,Prince George,Stores,36.48949145,7.144228322,27.60126686,Stores
+249,Wiley,Mary,F,Salmon Arm,Baker,Bakery,Kamloops,Stores,54.75064529,5.919600934,152.1244924,Stores
+250,Francis,Jocelyn,F,Victoria,Baker,Bakery,Victoria,Stores,44.77484922,4.778751376,39.57679255,Stores
+251,Goff,Phillip,M,Burnaby,Baker,Bakery,Burnaby,Stores,56.11144912,6.904709931,174.8647281,Stores
+252,Reese,Amanda,F,Prince George,Baker,Bakery,Prince George,Stores,34.11491876,1.620817039,4.006486432,Stores
+253,Keating,David,M,Sooke,Baker,Bakery,Victoria,Stores,35.97228115,3.579663341,65.57723116,Stores
+254,McLaren,Francis,M,Vernon,Baker,Bakery,Vernon,Stores,31.47856723,3.675621244,0,Stores
+255,Colucci,Evelyn,F,Prince George,Baker,Bakery,Prince George,Stores,35.7258357,4.155243385,44.50048614,Stores
+256,Wilson,Beverly,F,Horsefly,Baker,Bakery,Prince George,Stores,,5.348732049,0,Stores
+257,Thomas,Ramon,M,Invermere,Baker,Bakery,Cranbrook,Stores,44.57034084,4.188334866,91.35291618,Stores
+258,Barnard,Georgia,F,Creston,Baker,Bakery,Cranbrook,Stores,38.19626612,6.728007933,59.95757031,Stores
+259,Perez,Erin,F,New Westminster,Baker,Bakery,New Westminster,Stores,38.31640412,5.005929687,28.53802654,Stores
+260,Lindo,Susan,F,Topley,Baker,Bakery,Prince George,Stores,54.60035641,3.414992262,112.6071529,Stores
+261,Furman,David,M,Aldergrove,Baker,Bakery,Aldergrove,Stores,52.62338815,5.32818421,84.6091321,Stores
+262,Neill,Kelly,M,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,32.62756763,5.880796835,20.52608989,Stores
+263,Hilyard,Brian,M,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,29.37409177,4.395205208,0,Stores
+264,Harder,Gary,M,Armstrong,Baker,Bakery,Vernon,Stores,36.14779144,3.136688027,26.70137233,Stores
+265,Goode,Todd,M,Field,Baker,Bakery,Cranbrook,Stores,46.19207185,3.959449201,28.78416405,Stores
+266,Dunn,Barbara,F,New Westminster,Baker,Bakery,New Westminster,Stores,32.16838201,5.768871951,40.49575113,Stores
+267,Leblanc,Louis,M,Youbou,Baker,Bakery,Victoria,Stores,39.94819217,3.641443235,49.90548322,Stores
+268,Geist,Gregory,M,Fort St John,Baker,Bakery,Fort St John,Stores,44.77063917,5.473203065,71.6224049,Stores
+269,McCann,Hazel,F,Kelowna,Baker,Bakery,Kelowna,Stores,40.23564643,7.969360463,22.72600698,Stores
+270,Logan,James,M,Nanaimo,Baker,Bakery,Nanaimo,Stores,47.7864692,5.409125372,20.11226488,Stores
+271,Salinas,Ernest,M,Bowen Island,Bakery Manager,Bakery,Vancouver,Stores,21.96085504,2.81537022,0,Stores
+272,Sherman,Viola,F,Surrey,Baker,Bakery,Surrey,Stores,49.23854802,5.342303525,75.60492624,Stores
+273,Santo,Hubert,M,Sorrento,Baker,Bakery,Kamloops,Stores,38.48180344,3.983263282,3.026643536,Stores
+274,Knotts,James,M,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,37.7312481,3.291196527,18.76798501,Stores
+275,Gaddy,Tracy,M,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,57.08813022,5.422745919,122.660478,Stores
+276,Holloway,Louisa,F,Surrey,Baker,Bakery,Surrey,Stores,34.28082043,5.721009922,28.39811691,Stores
+277,Fralick,Thelma,F,Victoria,Baker,Bakery,Victoria,Stores,29.30370209,3.32828679,36.26095364,Stores
+278,Lamm,Breanna,F,Victoria,Baker,Bakery,Victoria,Stores,53.97279984,4.725270372,73.9432002,Stores
+279,Gregor,William,M,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,55.75102139,5.605690978,85.85659878,Stores
+280,Galligan,Gloria,F,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,49.4851649,4.274813211,74.28087994,Stores
+281,Wilson,Frank,M,Victoria,Baker,Bakery,Victoria,Stores,45.95132139,5.453772607,104.0283792,Stores
+282,Tice,Andre,M,Victoria,Baker,Bakery,Victoria,Stores,36.41103286,2.754126134,0,Stores
+283,Weaver,Phillip,M,Prince George,Baker,Bakery,Prince George,Stores,40.21737247,5.309408045,36.85759727,Stores
+284,Marshall,Gwendolyn,F,Merritt,Baker,Bakery,Kamloops,Stores,43.05432623,4.870581501,38.29051282,Stores
+285,Braud,Alfonso,M,Crawford Bay,Baker,Bakery,Cranbrook,Stores,38.38906678,4.968577776,28.63001058,Stores
+286,Kelleher,Latonya,F,Richmond,Baker,Bakery,Richmond,Stores,45.08977998,6.959476071,75.08140597,Stores
+287,Gorski,Henrietta,F,Rossland,Baker,Bakery,Trail,Stores,58.95193483,5.312972212,146.0033861,Stores
+288,Murray,Jennifer,F,New Westminster,Baker,Bakery,New Westminster,Stores,29.6349007,7.847283569,46.67651007,Stores
+289,Neill,Harry,M,Victoria,Baker,Bakery,Victoria,Stores,64.1862768,4.613496212,198.6057962,Stores
+290,Gelinas,Michael,M,Sidney,Baker,Bakery,Victoria,Stores,37.25898016,3.624109308,0,Stores
+291,Hansen,Earl,M,New Westminster,Baker,Bakery,New Westminster,Stores,48.19952531,5.882760132,76.71632648,Stores
+292,Russo,Lisa,F,Kamloops,Baker,Bakery,Kamloops,Stores,11.77831479,4.873719892,0,Stores
+293,Higginbotham,John,M,Castlegar,Baker,Bakery,Trail,Stores,31.12161244,6.690682756,0,Stores
+294,Hollen,Joseph,M,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,48.20856562,7.087451834,101.1876391,Stores
+295,Utter,Charles,M,Williams Lake,Baker,Bakery,Williams Lake,Stores,46.02262995,4.177042046,102.8105789,Stores
+296,Crafton,Nancy,F,Vancouver,Bakery Manager,Bakery,Vancouver,Stores,35.54491002,3.398417436,95.89296083,Stores
+297,Curtis,Freida,F,New Westminster,Baker,Bakery,New Westminster,Stores,53.03555014,2.68683175,139.6920268,Stores
+298,Ashley,Bernice,F,Kelowna,Baker,Bakery,Kelowna,Stores,47.74269834,4.31650222,68.54001737,Stores
+299,Neal,Amanda,F,Pender Harbour,Baker,Bakery,Victoria,Stores,28.26400962,3.794655163,0,Stores
+300,Courtois,Dennis,M,Victoria,Baker,Bakery,Victoria,Stores,47.06341877,4.959406519,44.49102502,Stores
+301,Mobley,Willie,M,Quesnel,Baker,Bakery,Quesnel,Stores,41.25308043,4.310755835,0,Stores
+302,Noriega,Mary,F,Spences Bridge,Baker,Bakery,Kamloops,Stores,43.17225733,3.413951341,68.6669675,Stores
+303,Moore,William,M,Vancouver,Benefits Admin,Employee Records,Vancouver,HumanResources,49.81724,26.083188,57.20654368,HeadOffice
+304,Barrientez,Xavier,M,New Westminster,Baker,Bakery,New Westminster,Stores,38.65612904,4.986305222,0,Stores
+305,Ingram,Kenneth,M,West Vancouver,Cashier,Customer Service,West Vancouver,Stores,55.95054231,6.078620916,83.18389739,Stores
+306,Ober,Steven,M,Richmond,Baker,Bakery,Richmond,Stores,30.94561689,3.835034666,0,Stores
+307,Hull,Craig,M,New Westminster,Baker,Bakery,New Westminster,Stores,46.11313148,5.623581958,35.37072859,Stores
+308,Davis,Lori,F,Vancouver,Benefits Admin,Employee Records,Vancouver,HumanResources,52.68017,5.079882,60.25250171,HeadOffice
+309,Sands,Diane,F,Vancouver,Benefits Admin,Employee Records,Vancouver,HumanResources,55.76493,15.906366,0,HeadOffice
+310,Watts,Ismael,M,Aldergrove,Baker,Bakery,Aldergrove,Stores,45.91600372,3.975289361,65.69786089,Stores
+311,Lynch,Raymond,M,Langley,Baker,Bakery,Langley,Stores,47.0598613,5.691602847,86.27605733,Stores
+312,Gerard,Kenneth,M,Willow Point,Baker,Bakery,Trail,Stores,46.10034641,4.444679915,75.85883594,Stores
+313,Daniel,Jennifer,F,Vancouver,Benefits Admin,Employee Records,Vancouver,HumanResources,55.01031,32.350609,113.9021614,HeadOffice
+314,Guzman,Sharon,F,Langley,Baker,Bakery,Langley,Stores,38.84841513,1.974589769,40.50500469,Stores
+315,Carbaugh,Monica,F,Abbotsford,Baker,Bakery,Abbotsford,Stores,63.64067214,2.064808515,206.8713669,Stores
+316,Espinoza,Steven,M,Penticton,Baker,Bakery,Kelowna,Stores,46.40050071,3.789111033,35.57021837,Stores
+317,Mills,Tiffany,F,Vancouver,Benefits Admin,Employee Records,Vancouver,HumanResources,53.4876,9.940766,42.15238664,HeadOffice
+318,Chamness,Richard,M,New Westminster,Baker,Bakery,New Westminster,Stores,45.8087373,3.814751013,107.7054315,Stores
+319,Bricker,Jacqueline,F,Port Coquitlam,Baker,Bakery,Port Coquitlam,Stores,38.19359343,4.489481218,71.13512797,Stores
+320,Yokoyama,Jorge,M,Kelowna,Baker,Bakery,Kelowna,Stores,61.03372746,2.429702833,181.0606009,Stores
+321,Jackson,Justin,M,Vancouver,Benefits Admin,Employee Records,Vancouver,HumanResources,49.65137,21.960999,21.17797032,HeadOffice
+322,Gomez,Irene,F,Vancouver,Compensation Analyst,Compensation,Vancouver,HumanResources,39.23264,13.412318,0,HeadOffice
+323,Cromer,Arthur,M,Nelson,Baker,Bakery,Nelson,Stores,27.19733271,3.300616625,0,Stores
+324,Davis,Michael,M,Vancouver,Compensation Analyst,Compensation,Vancouver,HumanResources,49.737079,31.737079,0,HeadOffice
+325,Snowden,Linda,F,Vancouver,Compensation Analyst,Compensation,Vancouver,HumanResources,54.78184,17.754217,72.29939142,HeadOffice
+326,Helton,Mary,F,Surrey,Baker,Bakery,Surrey,Stores,49.35642336,3.402556616,90.58930376,Stores
+327,Shockley,Franklin,M,North Vancouver,Baker,Bakery,North Vancouver,Stores,37.64279675,6.196562502,13.95236794,Stores
+328,Johnstone,Armand,M,Richmond,Baker,Bakery,Richmond,Stores,37.92292401,7.783429235,43.26658309,Stores
+329,Linder,Janice,F,North Vancouver,Baker,Bakery,North Vancouver,Stores,13.91701673,3.471968504,0,Stores
+330,Gonzalez,Rodney,M,Aldergrove,Cashier,Customer Service,Aldergrove,Stores,46.47444666,6.767435204,44.96931708,Stores
+331,Stalder,Lawrence,M,Woss,Baker,Bakery,Cranbrook,Stores,42.26699217,5.240078791,39.06571163,Stores
+332,Price,Daisy,F,New Westminster,Baker,Bakery,New Westminster,Stores,49.70256092,3.907616472,127.1518493,Stores
+333,Olson,Ronald,M,Cobble Hill,Baker,Bakery,Victoria,Stores,,6.856205911,125.8763124,Stores
+334,Collins,Timothy,M,Lac La Hache,Baker,Bakery,Williams Lake,Stores,41.20807653,6.954832391,58.95419875,Stores
+335,Clay,William,M,Victoria,Baker,Bakery,Victoria,Stores,53.77834729,3.574201195,129.270387,Stores
+336,Davis,Paul,M,Bob Quinn Lake,Baker,Bakery,Terrace,Stores,51.55788049,4.248976721,90.27111205,Stores
+337,Snow,Darwin,M,Muncho Lake,Baker,Bakery,Fort St John,Stores,49.3310176,4.248736359,73.93095013,Stores
+338,Giuliani,Philip,M,Hedley,Baker,Bakery,Princeton,Stores,40.68595999,4.326906054,7.234942941,Stores
+339,Kwan,Mary,F,Sardis,Baker,Bakery,Chilliwack,Stores,52.38056007,0.937085283,145.8827831,Stores
+340,Moody,Bebe,F,Gold Bridge,Baker,Bakery,Kamloops,Stores,34.47078152,4.392234231,23.06389,Stores
+341,Burg,Eleanor,F,Victoria,Baker,Bakery,Victoria,Stores,48.14741118,4.459393608,50.69225157,Stores
+342,Zamora,Frances,F,Sparwood,Baker,Bakery,Cranbrook,Stores,42.04539396,3.551056692,87.10310132,Stores
+343,Campbell,Jeremiah,M,Port Mcneill,Baker,Bakery,Nanaimo,Stores,48.32233424,7.209689888,79.00598166,Stores
+344,Alvarado,Anabel,F,Fort St John,Baker,Bakery,Fort St John,Stores,46.85967012,7.30558877,92.24606666,Stores
+345,Hughes,Margaret,F,Salmon Valley,Baker,Bakery,Prince George,Stores,65.03202077,3.690163126,207.3551542,Stores
+346,Collins,Grace,F,Squamish,Baker,Bakery,Squamish,Stores,40.43092925,2.957327667,57.78513419,Stores
+347,Cunningham,Lisa,F,New Westminster,Baker,Bakery,New Westminster,Stores,44.70052933,3.467367139,57.47130909,Stores
+348,Corcoran,Cassandra,F,Victoria,Baker,Bakery,Victoria,Stores,48.73561807,5.43412175,75.48601993,Stores
+349,Stier,Amy,F,Victoria,Baker,Bakery,Victoria,Stores,24.77526856,3.924288439,0,Stores
+350,Horton,Samuel,M,Kelowna,Baker,Bakery,Kelowna,Stores,28.82467817,4.313249962,18.74347478,Stores
+351,Jones,Jorge,M,Vancouver,Compensation Analyst,Compensation,Vancouver,HumanResources,40.099508,22.099508,120.3801664,HeadOffice
+352,Davenport,Leonard,M,Vancouver,Compensation Analyst,Compensation,Vancouver,HumanResources,54.422944,36.422944,0,HeadOffice
+353,Mullen,David,M,Vancouver,HRIS Analyst,HR Technology,Vancouver,HumanResources,57.83862,6.323964,127.1443971,HeadOffice
+354,Dobbs,Samuel,M,Surrey,Baker,Bakery,Surrey,Stores,46.26318447,2.822267528,55.34484555,Stores
+355,Mendez,Linda,F,Vancouver,HRIS Analyst,HR Technology,Vancouver,HumanResources,61.735239,43.735239,0,HeadOffice
+356,Hedges,Edward,M,Richmond,Baker,Bakery,Richmond,Stores,41.3446638,2.973238555,59.28582039,Stores
+357,Feldman,Troy,M,Chilliwack,Baker,Bakery,Chilliwack,Stores,47.77542634,5.372207078,105.1862002,Stores
+358,Booth,Blanca,F,Abbotsford,Cashier,Customer Service,Abbotsford,Stores,54.04718271,5.787626946,120.2943088,Stores
+359,Cummings,Lance,M,New Westminister,Baker,Bakery,New Westminister,Stores,46.34636295,6.0577937,96.19213879,Stores
+360,Bober,Colleen,F,Agassiz,Baker,Bakery,Chilliwack,Stores,50.94350018,3.828198897,146.0447595,Stores
+361,Shaffer,Justin,M,Bob Quinn Lake,Baker,Bakery,Terrace,Stores,49.77500929,5.617105011,66.93209081,Stores
+362,Reyes,Lauren,F,Vancouver,HRIS Analyst,HR Technology,Vancouver,HumanResources,62.96501,24.185418,75.94725642,HeadOffice
+363,Calles,Mary,F,Fort Langley,Baker,Bakery,Langley,Stores,45.6015481,3.421862484,105.2258301,Stores
+364,Rowen,Todd,M,Horsefly,Baker,Bakery,Prince George,Stores,47.26951676,4.266009831,65.20146094,Stores
+365,Meadows,Carlos,M,Kelowna,Baker,Bakery,Kelowna,Stores,32.81371965,2.588848628,0,Stores
+366,Hurlburt,Robert,M,Avola,Cashier,Customer Service,Kamloops,Stores,54.64327627,7.579731906,115.6027095,Stores
+367,Castillo,Angela,F,Bear Lake,Baker,Bakery,Prince George,Stores,34.64718451,7.458751463,0,Stores
+368,Noriega,Diane,F,New Westminister,Baker,Bakery,New Westminister,Stores,37.87297462,7.155708557,0,Stores
+369,Honaker,George,M,Cobble Hill,Baker,Bakery,Victoria,Stores,47.11875464,4.301489007,112.2035569,Stores
+370,Westman,Stacy,M,Nanaimo,Baker,Bakery,Nanaimo,Stores,19.51295987,2.563323475,0,Stores
+371,Kuntz,Daniel,M,North Vancouver,Baker,Bakery,North Vancouver,Stores,38.66283732,6.451447982,57.94548715,Stores
+372,Alonzo,Janette,F,Vancouver,HRIS Analyst,HR Technology,Vancouver,HumanResources,43.14466,23.478444,63.21600345,HeadOffice
+373,Walker,Yvette,F,Victoria,Baker,Bakery,Victoria,Stores,48.73314194,4.425093038,73.92678067,Stores
+374,Garcia,Maria,F,Williams Lake,Baker,Bakery,Williams Lake,Stores,43.28842535,6.207171968,33.07679923,Stores
+375,Myers,Patrick,M,Fauquier,Cashier,Customer Service,Trail,Stores,43.90486891,2.719332403,96.66844471,Stores
+376,Martinez,Esther,F,Brackendale,Baker,Bakery,Squamish,Stores,31.31040261,3.787033942,23.74644316,Stores
+377,Norman,Willie,M,Nanaimo,Baker,Bakery,Nanaimo,Stores,45.5682308,5.833924171,71.23074099,Stores
+378,March,Joseph,M,Victoria,Baker,Bakery,Victoria,Stores,58.13304183,7.806944723,95.95336768,Stores
+379,Hays,Danny,M,Victoria,Baker,Bakery,Victoria,Stores,54.779859,5.112717498,125.8604413,Stores
+380,Patterson,Ryan,M,Quesnel,Baker,Bakery,Quesnel,Stores,57.87101095,5.674411191,114.4136166,Stores
+381,Joyce,Steve,M,Skookumchuck,Baker,Bakery,Nanaimo,Stores,48.69864812,5.431143371,43.80520345,Stores
+382,Greenberg,Tami,F,Kamloops,Cashier,Customer Service,Kamloops,Stores,38.89574259,2.676968457,55.55237954,Stores
+383,Wood,Roland,M,Huntingdon,Cashier,Customer Service,Abbotsford,Stores,47.6683812,4.621010613,68.91000358,Stores
+384,Staub,Carrie,F,Victoria,Baker,Bakery,Victoria,Stores,26.76805037,6.627176947,0,Stores
+385,Crisp,Salvador,M,Hedley,Baker,Bakery,Princeton,Stores,23.17755823,6.47552198,11.06662422,Stores
+386,Drayton,Megan,F,Prince George,Baker,Bakery,Prince George,Stores,47.29635022,4.629905433,125.8839935,Stores
+387,Morris,Francisco,M,New Westminster,Baker,Bakery,New Westminster,Stores,38.6933991,6.293848878,19.45913802,Stores
+388,Stanko,Rose,F,Cranbrook,Baker,Bakery,Cranbrook,Stores,35.79056103,5.177825531,0,Stores
+389,Pollard,Katie,F,Gibsons,Cashier,Customer Service,West Vancouver,Stores,42.94779654,5.759253216,75.3966086,Stores
+390,Lietz,Katrina,F,Nanaimo,Baker,Bakery,Nanaimo,Stores,41.27476629,6.571548908,94.28295789,Stores
+391,Carpentier,William,M,Vancouver,HRIS Analyst,HR Technology,Vancouver,HumanResources,53.72168,12.259574,0,HeadOffice
+392,Johnson,Jennifer,F,Vancouver,Investment Analyst,Investment,Vancouver,FinanceAndAccounting,63.6606,3.567056,110.1393004,HeadOffice
+393,McCloud,Michael,M,Britannia Beach,Baker,Bakery,Squamish,Stores,45.50482408,6.19227067,123.0983087,Stores
+394,Martin,Jose,M,Parksville,Baker,Bakery,Nanaimo,Stores,42.48329056,4.141059348,87.328194,Stores
+395,Navarrete,Leonard,M,Kamloops,Cashier,Customer Service,Kamloops,Stores,24.64311582,4.208221421,0,Stores
+396,Buendia,Georgia,F,Campbell River,Baker,Bakery,Nanaimo,Stores,59.41045632,5.418940883,115.0429128,Stores
+397,Cook,Joseph,M,Comox,Baker,Bakery,Nanaimo,Stores,16.50975473,5.659407016,0,Stores
+398,Winship,Linda,F,Victoria,Baker,Bakery,Victoria,Stores,53.68190138,4.262025469,159.1892618,Stores
+399,Velez,Lori,F,Aldergrove,Cashier,Customer Service,Aldergrove,Stores,50.29067228,3.194487001,128.5198368,Stores
+400,Paxson,James,M,Chilliwack,Baker,Bakery,Chilliwack,Stores,47.31162488,5.500839969,67.24244208,Stores
+401,Foster,Robert,M,Victoria,Baker,Bakery,Victoria,Stores,28.45488643,4.540981858,0,Stores
+402,Acevedo,Earl,M,Vancouver,Investment Analyst,Investment,Vancouver,FinanceAndAccounting,41.00684,20.690126,0,HeadOffice
+403,Oneal,Nancy,F,Decker Lake,Baker,Bakery,Prince George,Stores,54.17344462,3.654554735,112.4176815,Stores
+404,Hunter,Margaret,F,Brackendale,Baker,Bakery,Squamish,Stores,38.68350844,4.625218768,14.80722716,Stores
+405,Miranda,Sonya,F,Victoria,Baker,Bakery,Victoria,Stores,37.39941933,5.385136819,19.82535074,Stores
+406,Hernandez,Walter,M,Vancouver,Investment Analyst,Investment,Vancouver,FinanceAndAccounting,56.57166,10.702093,0,HeadOffice
+407,Russell,Linda,F,Vancouver,Investment Analyst,Investment,Vancouver,FinanceAndAccounting,24.03801,6.03801,0,HeadOffice
+408,Howard,Ruby,F,Port Hardy,Baker,Bakery,Nanaimo,Stores,57.48245355,4.996172316,188.8059986,Stores
+409,Pickett,Marta,F,Burnaby,Baker,Bakery,Burnaby,Stores,39.65132981,4.234270483,24.65164069,Stores
+410,McDonald,Raquel,F,Williams Lake,Baker,Bakery,Williams Lake,Stores,37.58016678,3.898129622,38.97862104,Stores
+411,Usher,Clifton,M,Vancouver,Investment Analyst,Investment,Vancouver,FinanceAndAccounting,45.70187,18.714494,0,HeadOffice
+412,Click,Audra,F,Burnaby,Baker,Bakery,Burnaby,Stores,30.23772064,1.224984469,0,Stores
+413,Whitman,Gary,M,Dawson Creek,Cashier,Customer Service,Dawson Creek,Stores,47.44402299,7.191711717,133.2494689,Stores
+414,Vargas,Susan,F,Flatrock,Baker,Bakery,Fort St John,Stores,37.37674244,6.650815812,43.04919149,Stores
+415,Owen,Jay,M,Abbotsford,Cashier,Customer Service,Abbotsford,Stores,24.53199841,5.836590902,0,Stores
+416,Hayes,Eric,M,Vancouver,Labor Relations Analyst,Labor Relations,Vancouver,HumanResources,49.81724,26.783065,31.5834116,HeadOffice
+417,Creighton,Marie,F,Sechelt,Cashier,Customer Service,West Vancouver,Stores,39.41713079,2.108584694,32.57782403,Stores
+418,Briones,Karin,F,Princeton,Cashier,Customer Service,Princeton,Stores,48.70922246,3.895792669,105.2711057,Stores
+419,Kent,Charles,M,Kelowna,Baker,Bakery,Kelowna,Stores,46.4872512,3.826643269,90.89500232,Stores
+420,Jones,Jeremy,M,Fort Nelson,Baker,Bakery,Fort Nelson,Stores,41.41336734,2.877208906,64.67104232,Stores
+421,Pierce,Anita,F,Woss,Baker,Bakery,Cranbrook,Stores,42.25238159,1.257179097,40.36260299,Stores
+422,Andrews,Sergio,M,Vancouver,Labor Relations Analyst,Labor Relations,Vancouver,HumanResources,52.68017,16.879339,0,HeadOffice
+423,Reeves,Freddy,M,Prince George,Baker,Bakery,Prince George,Stores,33.55420357,3.694309276,0,Stores
+424,Tovar,Sarah,F,Kamloops,Cashier,Customer Service,Kamloops,Stores,34.64472079,3.537965175,21.78172758,Stores
+425,Sullivan,Stephen,M,New Westminster,Cashier,Customer Service,New Westminster,Stores,48.28562518,4.80028956,108.8888799,Stores
+426,Alexander,Sarah,F,Surrey,Baker,Bakery,Surrey,Stores,53.8894244,5.409040791,111.6737578,Stores
+427,Hess,Charles,M,Vancouver,Labor Relations Analyst,Labor Relations,Vancouver,HumanResources,55.76493,33.688884,0,HeadOffice
+428,Nance,Elaine,F,Vancouver,Labor Relations Analyst,Labor Relations,Vancouver,HumanResources,55.01031,7.17544,126.5891578,HeadOffice
+429,Oneil,Austin,M,New Westminster,Cashier,Customer Service,New Westminster,Stores,42.20679651,5.316107874,65.83063728,Stores
+430,Arrington,Donna,F,Vernon,Baker,Bakery,Vernon,Stores,40.72063863,4.921410713,89.09809241,Stores
+431,Toliver,Betty,F,Gibsons,Cashier,Customer Service,West Vancouver,Stores,44.13614639,5.58846501,77.99267824,Stores
+432,Cox,Sharon,F,Victoria,Baker,Bakery,Victoria,Stores,55.6059169,4.280218839,162.071152,Stores
+433,Moore,Charles,M,Slocan,Cashier,Customer Service,Trail,Stores,46.55622619,2.339814315,58.36254064,Stores
+434,Adkins,Jane,F,Abbotsford,Cashier,Customer Service,Abbotsford,Stores,35.13456681,4.123586358,13.91972288,Stores
+435,Smith,Doris,F,Lumby,Baker,Bakery,Vernon,Stores,58.07045982,3.666060258,202.2246554,Stores
+436,Torres,Frances,F,Vancouver,Labor Relations Analyst,Labor Relations,Vancouver,HumanResources,53.4876,19.460694,60.32133848,HeadOffice
+437,Hall,Cristobal,M,Surrey,Baker,Bakery,Surrey,Stores,56.98952573,3.759089845,154.2911492,Stores
+438,Ruiz,Richard,M,Vancouver,Recruiter,Recruitment,Vancouver,HumanResources,55.82504,21.561588,73.09016728,HeadOffice
+439,Marin,Juan,M,Kamloops,Cashier,Customer Service,Kamloops,Stores,28.43684102,5.854769847,0,Stores
+440,Lee,Helen,F,Vancouver,Recruiter,Recruitment,Vancouver,HumanResources,67,1,0,HeadOffice
+441,Watts,April,F,Decker Lake,Baker,Bakery,Prince George,Stores,43.16190211,6.35248055,59.13654597,Stores
+442,Stevens,Matt,M,New Westminster,Cashier,Customer Service,New Westminster,Stores,39.44189274,4.307552705,17.59603058,Stores
+443,Hufford,Salena,F,Chase,Cashier,Customer Service,Kamloops,Stores,32.29718696,1.574168973,50.37777309,Stores
+444,Wood,Shawnee,F,Dawson Creek,Dairy Person,Dairy,Dawson Creek,Stores,44.58254104,5.357439351,116.6489239,Stores
+445,Powell,Brittany,F,Sooke,Baker,Bakery,Victoria,Stores,54.93292919,4.99494518,104.0819056,Stores
+446,Richardson,Michael,M,Boston Bar,Baker,Bakery,Chilliwack,Stores,29.06977848,5.37987874,0,Stores
+447,Burt,Joy,F,Port Alberni,Baker,Bakery,Nanaimo,Stores,52.87064743,4.148150737,114.5110495,Stores
+448,Orsini,Marcus,M,Sparwood,Baker,Bakery,Cranbrook,Stores,38.73055301,2.051009579,12.2525326,Stores
+449,Webb,Arthur,M,Union Bay,Baker,Bakery,Nanaimo,Stores,60.92573728,2.479067787,124.1534025,Stores
+450,Hallock,Lorine,F,Victoria,Baker,Bakery,Victoria,Stores,45.2344092,4.446572171,104.3010009,Stores
+451,Knight,Cecelia,F,Francois Lake,Baker,Bakery,Prince George,Stores,23.08029613,6.277629025,0,Stores
+452,Archer,Renee,F,Vancouver,Recruiter,Recruitment,Vancouver,HumanResources,39.147491,21.147491,88.62749636,HeadOffice
+453,Doris,Richard,M,Vancouver,Recruiter,Recruitment,Vancouver,HumanResources,52.92548,7.862807,77.57512672,HeadOffice
+454,Tobey,Melissa,F,Aldergrove,Cashier,Customer Service,Aldergrove,Stores,35.5451812,6.019761247,0,Stores
+455,Sheffield,Rosemary,F,New Westminster,Cashier,Customer Service,New Westminster,Stores,46.21123869,5.539763463,129.6330594,Stores
+456,Rose,Leslie,M,Richmond,Baker,Bakery,Richmond,Stores,62.39382381,3.130596532,84.82918503,Stores
+457,Davis,Susan,F,Summerland,Baker,Bakery,Kelowna,Stores,45.18557692,5.448827437,82.20343689,Stores
+458,Buda,Thomas,M,Mackenzie,Baker,Bakery,Prince George,Stores,34.29581552,4.25825765,22.62732579,Stores
+459,Haveman,Melinda,F,Montney,Cashier,Customer Service,Fort St John,Stores,38.73361127,4.693169974,53.18199049,Stores
+460,Jones,Shannon,M,Chief Lake,Cashier,Customer Service,Prince George,Stores,58.12902481,7.157217516,113.121154,Stores
+461,Hockman,Patricia,F,New Westminster,Cashier,Customer Service,New Westminster,Stores,42.41074499,8.486237832,96.8403563,Stores
+462,Hall,Lakeisha,F,Vancouver,Recruiter,Recruitment,Vancouver,HumanResources,56.46422,4.51336,93.22573738,HeadOffice
+463,Muir,Latonya,F,Burns Lake,Cashier,Customer Service,Prince George,Stores,33.06526605,4.150117009,31.11766958,Stores
+464,Foster,Paul,M,Vancouver,Systems Analyst,Information Technology,Vancouver,InfoTech,32.583867,14.583867,33.80789048,HeadOffice
+465,Coleman,Ana,F,Port Alberni,Baker,Bakery,Nanaimo,Stores,52.18534665,5.98522589,164.0284577,Stores
+466,King,Zoraida,F,Vancouver,Systems Analyst,Information Technology,Vancouver,InfoTech,39.19805,11.77536,68.6007296,HeadOffice
+467,Traylor,Brenda,F,Burnaby,Baker,Bakery,Burnaby,Stores,51.07653909,7.062206967,74.59369024,Stores
+468,Clark,Kevin,M,Surrey,Baker,Bakery,Surrey,Stores,29.55119989,5.692511107,0,Stores
+469,Camp,Chris,M,Vancouver,Systems Analyst,Information Technology,Vancouver,InfoTech,42.02258,9.34757,67.17936576,HeadOffice
+470,Quesada,Thomas,M,Westwold,Cashier,Customer Service,Vernon,Stores,62.64433624,2.11603685,156.14084,Stores
+471,Smith,Cathy,F,Nelson,Cashier,Customer Service,Nelson,Stores,64.23124052,4.361367082,142.841791,Stores
+472,Willis,Ray,M,Vancouver,Systems Analyst,Information Technology,Vancouver,InfoTech,37.75449,1,0,HeadOffice
+473,Lyons,Jeannette,F,Abbotsford,Cashier,Customer Service,Abbotsford,Stores,36.63402217,4.94363174,0,Stores
+474,Keith,Larry,M,Vancouver,Systems Analyst,Information Technology,Vancouver,InfoTech,52.71591,6.112512,80.01481384,HeadOffice
+475,Morales,Gerald,M,Kamloops,Cashier,Customer Service,Kamloops,Stores,38.23339653,5.945349073,9.282681016,Stores
+476,Jimenez,Mike,M,Vancouver,Trainer,Training,Vancouver,HumanResources,49.81724,7.17544,90.36785992,HeadOffice
+477,Nusbaum,William,M,Kaslo,Baker,Bakery,Cranbrook,Stores,31.02611034,7.35501681,25.8851504,Stores
+478,Calcote,Hildred,F,Williams Lake,Cashier,Customer Service,Williams Lake,Stores,44.64552638,5.186879539,99.11984716,Stores
+479,Alvarado,Erica,F,Invermere,Cashier,Customer Service,Cranbrook,Stores,28.22209548,3.640241404,0,Stores
+480,Chang,Gertrude,F,Vancouver,Trainer,Training,Vancouver,HumanResources,52.68017,13.518324,30.62074579,HeadOffice
+481,Williams,Gracie,F,Victoria,Baker,Bakery,Victoria,Stores,24.64970229,2.202029073,10.73407329,Stores
+482,Bull,Carey,M,Creston,Cashier,Customer Service,Cranbrook,Stores,40.59613134,3.606849734,70.64421821,Stores
+483,Robbins,Henry,M,Vancouver,Trainer,Training,Vancouver,HumanResources,55.76493,19.460694,,HeadOffice
+484,Fernandez,Jennifer,F,Surrey,Baker,Bakery,Surrey,Stores,31.30475054,4.667194146,23.91062766,Stores
+485,Spinks,Danielle,F,Terrace,Baker,Bakery,Terrace,Stores,50.31913455,6.993119027,118.4473153,Stores
+486,Roos,James,M,Vancouver,Trainer,Training,Vancouver,HumanResources,55.01031,36.747626,50.27390576,HeadOffice
+487,Vanleuven,Raymond,M,Langley,Baker,Bakery,Langley,Stores,38.31455482,3.584010511,11.80970768,Stores
+488,Pettiford,Jason,M,Surrey,Baker,Bakery,Surrey,Stores,28.25597776,2.123325194,0.991869888,Stores
+489,Grimes,Elizabeth,F,Beaver Valley,Cashier,Customer Service,Williams Lake,Stores,35.19518848,2.867398802,37.08335291,Stores
+490,Smith,Nicholas,M,Langley,Baker,Bakery,Langley,Stores,35.45307385,6.179810306,0.026575364,Stores
+491,Mays,Steven,M,Oyster River,Baker,Bakery,Nanaimo,Stores,27.61409825,5.458445741,,Stores
+492,Phillips,Winston,M,Agassiz,Baker,Bakery,Chilliwack,Stores,35.65373786,4.354264592,37.15826466,Stores
+493,Bertrand,Michael,M,Victoria,Baker,Bakery,Victoria,Stores,49.56480991,4.980004911,100.5049786,Stores
+494,Lorenz,Shane,M,Vancouver,Trainer,Training,Vancouver,HumanResources,53.4876,4.75773,106.1094726,HeadOffice
+495,Felix,Carl,M,Vancouver,Trainer,Training,Vancouver,HumanResources,49.898107,31.898107,,HeadOffice
+496,Green,Anna,F,New Westminster,Cashier,Customer Service,New Westminster,Stores,41.02016162,3.001312253,67.65092244,Stores
+497,Nevitt,Phillip,M,D'arcy,Baker,Bakery,Squamish,Stores,53.65045001,5.732534766,129.7523563,Stores
+498,Troup,Martha,F,Burnaby,Baker,Bakery,Burnaby,Stores,39.86005478,4.322793577,76.99938789,Stores
+499,Ross,Eric,M,Surrey,Baker,Bakery,Surrey,Stores,35.48923302,5.155877892,48.83862073,Stores
+500,Farley,Jerry,M,Winfield,Baker,Bakery,Kelowna,Stores,,6.426720249,52.38401943,Stores
