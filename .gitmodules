@@ -1,0 +1,3 @@
+[submodule "AI-Course/Semester Project/yolov5"]
+	path = AI-Course/Semester Project/yolov5
+	url = https://github.com/ultralytics/yolov5
