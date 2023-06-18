@@ -20,3 +20,7 @@ All lab work are stored in a seperate folder and numbered, each lab work include
 All course assignments will have the prompt in the same folder.
 
 ![Course Marks](./AI-Course/Course-Scores.png?raw=true)
+
+
+# NOTE
+If you brain dead cheat, and someone asks me if the code is taken from my repo. I will help them.
